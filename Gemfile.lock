@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    artii (2.1.2)
+    colorize (0.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  artii (~> 2.1.0)
+  colorize (~> 0.8.0)
+
+BUNDLED WITH
+   2.2.23
