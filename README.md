@@ -13,9 +13,15 @@ realidad no usamos PPT, sino que el material completo (incluida la presentación
 
 ## Uso
 
+Primero vamos a instalar las dependencias:
+
+```bash
+bundle install
+```
+
 El uso de la clase, será a través de IRB, la consola de ruby:
 
-```
+```bash
 irb -I . -r ttps_subject_presentation.rb
 ```
 
@@ -26,3 +32,9 @@ materia:
 ttps = TTPSSubjectPresentation.new
 ttps.present
 ```
+
+## Demo
+
+Acá podés ver como funciona:
+
+![demo](demo.gif)
